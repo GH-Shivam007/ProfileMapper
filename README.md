@@ -1,4 +1,3 @@
-
 # ProfileMapper - Interactive Profile Management App
 
 ## Overview
@@ -125,6 +124,7 @@ ProfileMapper is a modern web application that allows users to view and manage p
 ## Features
 
 ### 1. Authentication
+
 - **User Registration**: Create a new account with email and password
 - **Login**: Secure login with email and password
 - **Session Management**: Persistent sessions with automatic token refresh
@@ -132,23 +132,27 @@ ProfileMapper is a modern web application that allows users to view and manage p
 - **Admin Access**: Special admin interface for authorized users
 
 ### 2. Profile Browsing
+
 - **Grid View**: Browse profiles in a clean, card-based layout
 - **Map View**: View all profiles on an interactive map
 - **Profile Details**: Click on a profile to view comprehensive information
 - **Responsive Design**: Access from any device with a responsive interface
 
 ### 3. Interactive Mapping
+
 - **Mapbox Integration**: Visualize profile locations using Mapbox
 - **Location Markers**: Clickable markers show profile information
 - **Dynamic Map Navigation**: Pan and zoom to explore locations
 - **Profile Selection**: View a specific profile's location by selecting it
 
 ### 4. Search and Filtering
+
 - **Real-time Search**: Filter profiles as you type
 - **Multi-field Search**: Search across name, description, address, company, position, and interests
 - **Empty State Handling**: Informative messages when no profiles match the search
 
 ### 5. Admin Functionality
+
 - **Admin Access**: Access the admin panel through the settings icon on the home page
 - **Profile Management**: Add, edit, and delete profiles with a comprehensive form interface
 - **Form Validation**: Ensure all required fields are properly filled
@@ -157,6 +161,7 @@ ProfileMapper is a modern web application that allows users to view and manage p
 - **Interest Management**: Add and remove profile interests dynamically
 
 ### 6. User Experience
+
 - **Loading Indicators**: Visual feedback during data loading
 - **Toast Notifications**: Informative messages for user actions
 - **Responsive Layout**: Optimized for desktop, tablet, and mobile
@@ -166,6 +171,7 @@ ProfileMapper is a modern web application that allows users to view and manage p
 ## Technical Details
 
 ### Technologies Used
+
 - **React**: Frontend framework
 - **TypeScript**: Type-safe JavaScript
 - **React Router**: Navigation and routing
@@ -219,18 +225,21 @@ ProfileMapper is a modern web application that allows users to view and manage p
 ## Troubleshooting
 
 ### Authentication Issues
+
 - If you're having trouble logging in, ensure your email and password are correct
 - For new accounts, check your email for verification if required
 - Clear browser cache if persistent issues occur
 - For development, you may want to disable email verification in the Supabase dashboard
 
 ### Map Not Loading
+
 - Ensure you've entered a valid Mapbox public token
 - Check console for any errors related to map initialization
 - Verify that coordinates are in the correct format [longitude, latitude]
 - If the map shows an unauthorized error, try clearing your mapbox token from local storage
 
 ### Profile Changes Not Saving
+
 - Ensure all required fields are filled
 - Check for any validation errors highlighted in the form
 - Verify you are properly authenticated before attempting changes
@@ -238,7 +247,3 @@ ProfileMapper is a modern web application that allows users to view and manage p
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
